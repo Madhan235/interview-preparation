@@ -31,7 +31,7 @@ export default function CountDownTimer({ initialCount }) {
       <h1>{currentCount}</h1>
       <button onClick={onPause}>pause</button>
       <button onClick={onResume}>resume</button>
-      <button onClick={onReset}>Reset</button>
+      <button onClick={onReset}>reset</button>
     </>
   );
 }
