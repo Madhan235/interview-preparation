@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-import CountDownTimer from "./components/CountDownTimer";
+import TrafficLight from "./components/TrafficLight";
 
 function App() {
   return (
     <div className="App">
-      <CountDownTimer initialCount={10} />
+      {/* <CountDownTimer initialCount={10} /> */}
+
+      <TrafficLight />
     </div>
   );
 }

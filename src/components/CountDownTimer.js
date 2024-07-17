@@ -5,6 +5,7 @@ export default function CountDownTimer({ initialCount }) {
   const [isPaused, setIsPaused] = useState(false);
 
   const timer = useRef(null);
+  console.log(timer.current);
 
   useEffect(() => {
     if (currentCount > 0 && !isPaused) {
