@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       {/* <CountDownTimer initialCount={10} /> */}
 
-      <TrafficLight />
+      {/* <TrafficLight /> */}
     </div>
   );
 }
