@@ -1,12 +1,12 @@
 import "./App.css";
-import TrafficLight from "./components/TrafficLight";
+import TrafficLight2 from "./components/TrafficLight2";
 
 function App() {
   return (
     <div className="App">
       {/* <CountDownTimer initialCount={10} /> */}
 
-      {/* <TrafficLight /> */}
+      <TrafficLight2 />
     </div>
   );
 }
